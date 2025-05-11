@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #e0e0e0;
+  }
+  ul {
+    padding-left: 20px;
+  }
+}
